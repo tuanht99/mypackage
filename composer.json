@@ -1,15 +1,37 @@
 {
-    "name": "tuan/mypackage",
-    "autoload": {
-        "psr-4": {
-            "Tuan\\Mypackage\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Hang Thanh Tuan",
-            "email": "tuanht.02.student@fit.tdc.edu.vn"
-        }
+    "name": "tuanht99/mypackage",
+    "description": "mypackage"
+    "keywords": [
+    "mypackage"
     ],
-    "require": {}
-}
+    "authors": [
+    {
+    "name": "foostart",
+    "email": "foostart.com@gmail.com"
+    }
+    ],
+    "license": "MIT",
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+    "classmap": [
+    "database"
+    ],
+    "psr-4": {
+    "tuanht99\\testpackage\\": "src/"
+    }
+    },
+    "autoload-dev": {
+    "classmap": [
+    
+    ]
+    },
+    "scripts": {
+    },
+    "minimum-stability": "dev",
+    "config": {
+    "preferred-install": "dist"
+    }
+    }
