@@ -2,7 +2,7 @@
     "name": "tuanht99/mypackage",
     "description": "mypackage"
     "keywords": [
-    "mypackage"
+    mypackage
     ],
     "authors": [
     {
@@ -17,7 +17,7 @@
     },
     "autoload": {
     "classmap": [
-    "database"
+    database
     ],
     "psr-4": {
     "tuanht99\\testpackage\\": "src/"
