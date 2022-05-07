@@ -1,0 +1,15 @@
+{
+    "name": "tuan/mypackage",
+    "autoload": {
+        "psr-4": {
+            "Tuan\\Mypackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hang Thanh Tuan",
+            "email": "tuanht.02.student@fit.tdc.edu.vn"
+        }
+    ],
+    "require": {}
+}
